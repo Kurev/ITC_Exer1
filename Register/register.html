@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="register-container">
+        <form action="register.php" method="post" id="registrationForm">
+            <div class="title">
+                <h1>Sign Up</h1>
+                <p>Sign up and stay connected!</p>
+            </div>
+            
+            <div class="input-cont">
+                <div class="input1">
+                    <input type="text" id="custname" name="custname" placeholder="Lastname, Firstname, Mi" required>
+                    <input type="text" id="custadd" name="custadd" placeholder="Address(blk. subd, etc.)" required>
+                </div>
+                <div class="input1">
+                    <input type="number" id="custphone" name="custphone" placeholder="Phone Number" required>
+                    <input type="email" id="custemail" name="custemail" placeholder="Email" required>
+                </div>
+                <div class="input1">
+                    <input type="password" id="custpassword" name="custpassword" placeholder="Password" required>
+                    <input type="password" id="custconfpassword" name="custconfpassword" placeholder="Confirm Password" required>
+                </div>
+            </div>
+
+            <button type="submit" onclick="return validate()">Submit</button>
+
+            <div class="register">
+                <p>Already have an account?</p>
+                <a href="/Login/Login.html">Sign In</a>
+            </div>
+
+            <div class="icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="mailto:your-email@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </form>
+    </div>
+    <script src="Register.js"></script>
+</body>
+</html>

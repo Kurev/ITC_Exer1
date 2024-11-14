@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(17,112,236);
+    background: linear-gradient(0deg, rgba(17,112,236,1) 0%, rgba(192,236,249,1) 100%);
+}
+
+.login-container{
+    background: #62b4f7;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 70px 30px 10px 30px;
+}
+
+.input-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-cont input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    padding-left: 1rem;
+    background: rgba(255, 255, 255, 0.905);
+    color: black;
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.693);
+}
+
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    color: #ffffffe9;
+}
+
+.sub-rem{
+    display: flex;
+}
+
+.sub-rem input{
+    margin-top: 3px;
+}
+
+button{
+    margin-top: 1rem;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.title{
+    color: #fbfbfb;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.title h1{
+    font-size: 2.6rem;
+}
+
+.register{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    color: #c6f4ec;
+}
+
+a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #1b2e36b7;
+}
+
+button{
+    background: #0092fb;
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover{
+    background: #0092fb60;
+    transition: 0.2s;
+}
+
+.icons{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.4rem;
+    
+}
+
+.icons a i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0092fb;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgb(250, 249, 249);
+}
+
+
